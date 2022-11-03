@@ -1,7 +1,8 @@
 import React from "react";
+import { BannerWrap } from "./style";
 
 const Banner = () => {
-    return <div>Banner</div>;
+    return <BannerWrap></BannerWrap>;
 };
 
 export default Banner;
