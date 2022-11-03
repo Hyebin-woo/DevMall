@@ -5,7 +5,6 @@ const GlobalStyles = createGlobalStyle`
 ${reset}
 * {
   box-sizing: border-box;
-  font-family: 'Shinb7Regular';
 }
 button {
   border: none;
