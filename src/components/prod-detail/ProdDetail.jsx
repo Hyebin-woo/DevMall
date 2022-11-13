@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
     GetWrap,
     ProInfoBox,
@@ -18,6 +19,7 @@ import IconMinus from "../../assets/icons/icon-minus-line.svg";
 import IconPlus from "../../assets/icons/icon-plus-line.svg";
 
 const ProdDetail = () => {
+    const navigate = useNavigate();
     return (
         <GetWrap>
             <h1 class="ir">상품 상세 정보</h1>
@@ -54,7 +56,9 @@ const ProdDetail = () => {
                         </ChangeBox>
                     </ChangeBox>
                     <BtnBuy type="button">바로 구매</BtnBuy>
-                    <BtnBasket type="button">장바구니</BtnBasket>
+                    <BtnBasket type="button" onClick={() => navigate("/cart")}>
+                        장바구니
+                    </BtnBasket>
                 </div>
             </ProInfoBox>
         </GetWrap>
