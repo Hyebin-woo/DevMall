@@ -4,7 +4,6 @@ import Header from "../../components/header/Header";
 import Banner from "../../components/banner/Banner";
 import { ProdWrap } from "./style";
 import ProdCard from "../../components/prod-card/ProdCard";
-import Footer from "../../components/footer/Footer";
 
 const HomePage = () => {
     return (
@@ -14,7 +13,6 @@ const HomePage = () => {
             <ProdWrap>
                 <ProdCard />
             </ProdWrap>
-            <Footer />
         </>
     );
 };
