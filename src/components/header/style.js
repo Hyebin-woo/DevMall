@@ -5,7 +5,7 @@ export const HeaderWrap = styled.header`
     justify-content: space-between;
     align-items: center;
     height: 107px;
-    padding: 20px 150px;
+    padding: 20px 100px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
 `;
 export const LeftWrap = styled.div`

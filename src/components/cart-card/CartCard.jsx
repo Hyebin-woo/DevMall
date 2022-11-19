@@ -12,8 +12,8 @@ import {
 } from "./style";
 
 import SampleImg from "../../assets/images/sample.svg";
-import ProdInfo from "../common/prodInfo/ProdInfo";
-import NumBox from "../../components/common/numbox/NumBox";
+import ProdInfo from "../atom/prodInfo/ProdInfo";
+import NumBox from "../atom/numbox/NumBox";
 
 const CartCard = () => {
     return (
