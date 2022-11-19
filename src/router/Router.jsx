@@ -7,6 +7,8 @@ import ProdDetailPage from "../pages/detail/ProdDetailPage";
 import CartPage from "../pages/cart/CartPage";
 import PaymentPage from "../pages/payment/PaymentPage";
 import NotFoundPage from "../pages/404/NotFoundPage";
+import SellerCenterPage from "../pages/seller-center/SellerCenterPage";
+import AddProdPage from "../pages/seller-makeprod/AddProdPage";
 
 const Router = () => {
     return (
@@ -18,6 +20,8 @@ const Router = () => {
                 <Route path="/detail" element={<ProdDetailPage />} />
                 <Route path="/cart" element={<CartPage />} />
                 <Route path="/payment" element={<PaymentPage />} />
+                <Route path="/sellercenter" element={<SellerCenterPage />} />
+                <Route path="/addproduct" element={<AddProdPage />} />
                 <Route path="/*" element={<NotFoundPage />} />
             </Routes>
         </BrowserRouter>
