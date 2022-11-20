@@ -15,3 +15,9 @@ export const InfoSection = styled.section`
     height: 412px;
     margin-top: 52px;
 `;
+
+export const SendBox = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+`;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Main, Title, InfoSection } from "./style";
+import { Main, Title, InfoSection, SendBox } from "./style";
 import ThBox from "../../components/atom/thbox/ThBox";
 
 import Header from "../../components/header/Header";
@@ -29,8 +29,10 @@ const PaymentPage = () => {
                 </InfoSection>
 
                 <PaymentDelivery />
-                <PaymentMethod />
-                <PaymentAgree />
+                <SendBox>
+                    <PaymentMethod />
+                    <PaymentAgree />
+                </SendBox>
             </Main>
         </>
     );

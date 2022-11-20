@@ -25,6 +25,10 @@ const PaymentDelivery = () => {
                     <Input type="text" />
                 </InputBox>
                 <InputBox>
+                    <Label>휴대폰</Label>
+                    <Input type="text" />
+                </InputBox>
+                <InputBox>
                     <Label>배송주소</Label>
                     <Input type="text" />
                 </InputBox>
