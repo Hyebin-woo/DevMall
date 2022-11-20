@@ -6,7 +6,7 @@ export const Item = styled.li`
     padding: 20px 15px;
     border-bottom: 1px solid #c4c4c4;
     display: grid;
-    grid-template-columns: 4fr 2fr 1fr 1fr;
+    grid-template-columns: 4fr 2fr 1.5fr 1.5fr;
     place-items: center;
 `;
 

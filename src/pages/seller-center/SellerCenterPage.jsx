@@ -6,12 +6,11 @@ import {
     TopBox,
     BtnUpload,
     StockSection,
-    ThBox,
-    ThTxt,
 } from "./style";
 import Header from "../../components/header/Header";
 import StockCard from "../../components/stock-card/StockCard";
 import { ReactComponent as IconPlus } from "../../assets/icons/icon-plus.svg";
+import ThBox from "../../components/atom/thbox/ThBox";
 
 const SellerCenterPage = () => {
     return (
@@ -29,12 +28,13 @@ const SellerCenterPage = () => {
                     </BtnUpload>
                 </TopBox>
                 <StockSection>
-                    <ThBox>
-                        <ThTxt>상품정보</ThTxt>
-                        <ThTxt>판매가격</ThTxt>
-                        <ThTxt>수정</ThTxt>
-                        <ThTxt>삭제</ThTxt>
-                    </ThBox>
+                    <ThBox
+                        bgColor={"#fff"}
+                        one={"상품정보"}
+                        two={"판매가격"}
+                        three={"수정"}
+                        four={"삭제"}
+                    />
                     <ul>
                         <StockCard />
                         <StockCard />
