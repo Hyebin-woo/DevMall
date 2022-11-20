@@ -44,18 +44,3 @@ export const StockSection = styled.section`
     border-radius: 5px;
     margin-top: 42px;
 `;
-
-export const ThBox = styled.div`
-    display: grid;
-    grid-template-columns: 4fr 2fr 1fr 1fr;
-    text-align: center;
-    border-bottom: 1px solid #c4c4c4;
-    border-radius: 5px 5px 0 0;
-    padding: 18px 20px;
-    background: #fff;
-`;
-
-export const ThTxt = styled.p`
-    font-weight: 400;
-    font-size: 18px;
-`;
