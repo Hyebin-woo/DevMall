@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { CardWrap, ProdInfoBox, StoreName, ProdName, ProdPrice } from "./style";
-import SampleImg from "../../assets/images/sample.svg";
+import SampleImg from "../../../assets/images/sample.svg";
 
 const ProdCard = () => {
     return (

@@ -14,9 +14,9 @@ import {
     TxtParcel,
 } from "./style";
 
-import SampleImg from "../../assets/images/sample.svg";
-import IconMinus from "../../assets/icons/icon-minus-line.svg";
-import IconPlus from "../../assets/icons/icon-plus-line.svg";
+import SampleImg from "../../../assets/images/sample.svg";
+import IconMinus from "../../../assets/icons/icon-minus-line.svg";
+import IconPlus from "../../../assets/icons/icon-plus-line.svg";
 
 const ProdDetail = () => {
     const navigate = useNavigate();

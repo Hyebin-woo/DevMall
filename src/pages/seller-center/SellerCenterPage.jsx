@@ -7,7 +7,7 @@ import {
     BtnUpload,
     StockSection,
 } from "./style";
-import Header from "../../components/header/Header";
+import Header from "../../components/header/seller-header/HeaderSeller";
 import StockCard from "../../components/stock-card/StockCard";
 import { ReactComponent as IconPlus } from "../../assets/icons/icon-plus.svg";
 import ThBox from "../../components/atom/thbox/ThBox";

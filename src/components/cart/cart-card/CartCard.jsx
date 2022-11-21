@@ -11,9 +11,9 @@ import {
     BtnOrder,
 } from "./style";
 
-import SampleImg from "../../assets/images/sample.svg";
-import ProdInfo from "../atom/prodInfo/ProdInfo";
-import NumBox from "../atom/numbox/NumBox";
+import SampleImg from "../../../assets/images/sample.svg";
+import ProdInfo from "../../atom/prodInfo/ProdInfo";
+import NumBox from "../../atom/numbox/NumBox";
 
 const CartCard = () => {
     return (

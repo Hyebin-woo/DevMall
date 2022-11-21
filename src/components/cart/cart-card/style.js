@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BtnRemove from "../../assets/icons/icon-delete.svg";
+import BtnRemove from "../../../assets/icons/icon-delete.svg";
 
 export const CartItem = styled.li`
     display: flex;

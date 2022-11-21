@@ -1,5 +1,5 @@
 import React from "react";
-import AddProd from "../../components/prod-add/AddProd";
+import AddProd from "../../components/prod/prod-add/AddProd";
 import { Main, Wrap, Aside, SideBox } from "./style";
 import Header from "../../components/header/Header";
 

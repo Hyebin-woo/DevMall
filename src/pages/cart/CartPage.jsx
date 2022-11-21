@@ -2,8 +2,8 @@ import React from "react";
 
 import { CartMain, TxtTitle, CartBox, CheckBox, TxtTab } from "./style";
 import Header from "../../components/header/Header";
-import CartCard from "../../components/cart-card/CartCard";
-import CartTotal from "../../components/cart-total/CartTotal";
+import CartCard from "../../components/cart/cart-card/CartCard";
+import CartTotal from "../../components/cart/cart-total/CartTotal";
 
 const CartPage = () => {
     return (

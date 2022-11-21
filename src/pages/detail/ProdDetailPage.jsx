@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import ProdDetail from "../../components/prod-detail/ProdDetail";
+import ProdDetail from "../../components/prod/prod-detail/ProdDetail";
 
 const ProdDetailPage = () => {
     return (
